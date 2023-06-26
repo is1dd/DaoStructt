@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 0.5rem;
+  gap: 3rem 2rem;
+}
